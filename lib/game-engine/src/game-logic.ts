@@ -18,11 +18,11 @@ export const CARD_VALUES: Record<CardId, number> = {
   guard: 1,
   ship_worker: 2,
   swordsman: 3,
+  spy: 4,
   cannon: 5,
   merchant: 6,
   sailor: 7,
   captain: 8,
-  spy: 8,
   pirate: 9,
 };
 
@@ -31,11 +31,11 @@ export const CARD_NAMES_BN: Record<CardId, string> = {
   guard: 'পাহারাদার',
   ship_worker: 'জাহাজ কর্মচারী',
   swordsman: 'তলোয়ারবাজ',
+  spy: 'গুপ্তচর',
   cannon: 'কামান চালক',
   merchant: 'বণিক',
   sailor: 'নাবিক',
   captain: 'ক্যাপ্টেন',
-  spy: 'গুপ্তচর',
   pirate: 'জলদস্যু',
 };
 

@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 const CARD_IMAGE_FILENAMES: Record<string, string> = {
   pirate: "9_pirate.jpg",
   captain: "8_captain.jpg",
-  spy: "7_spy.jpg",
-  sailor: "6_sailor.jpg",
-  merchant: "5_merchant.jpg",
-  cannon: "4_cannon.jpg",
+  sailor: "7_spy.jpg",
+  merchant: "6_sailor.jpg",
+  cannon: "5_merchant.jpg",
+  spy: "4_cannon.jpg",
   swordsman: "3_swordsman.jpg",
   ship_worker: "2_ship_worker.jpg",
   guard: "1_guard.jpg",
@@ -25,14 +25,14 @@ function getCardImage(key: string) {
 const CARDS_SHOWCASE = [
   { key: "pirate", name: "জলদস্যু", value: "৯", count: "×১", desc: "যে খেলবেন তিনি বাদ পড়বেন" },
   { key: "captain", name: "ক্যাপ্টেন", value: "৮", count: "×১", desc: "সাথে বণিক বা নাবিক থাকলে অবশ্যই খেলতে হবে" },
-  { key: "spy", name: "গুপ্তচর", value: "৮", count: "×২", desc: "পরবর্তী পালা পর্যন্ত সুরক্ষিত থাকুন" },
   { key: "sailor", name: "নাবিক", value: "৭", count: "×১", desc: "যেকোনো খেলোয়াড়ের সাথে হাত বদল করুন" },
   { key: "merchant", name: "বণিক", value: "৬", count: "×২", desc: "ডেক থেকে অতিরিক্ত কার্ড নিন, একটি রাখুন" },
-  { key: "cannon", name: "কামান চালক", value: "৬", count: "×২", desc: "লক্ষ্যের কার্ড ফেলে নতুন কার্ড নিতে বাধ্য করুন" },
+  { key: "cannon", name: "কামান চালক", value: "৫", count: "×২", desc: "লক্ষ্যের কার্ড ফেলে নতুন কার্ড নিতে বাধ্য করুন" },
+  { key: "spy", name: "গুপ্তচর", value: "৪", count: "×২", desc: "পরবর্তী পালা পর্যন্ত সুরক্ষিত থাকুন" },
   { key: "swordsman", name: "তলোয়ারবাজ", value: "৩", count: "×২", desc: "কার্ড তুলনা করুন — যার বেশি তিনি টিকবেন" },
   { key: "ship_worker", name: "জাহাজ কর্মচারী", value: "২", count: "×২", desc: "একজনের কার্ড দেখুন" },
   { key: "guard", name: "পাহারাদার", value: "১", count: "×৬", desc: "একটি কার্ড অনুমান করুন — সঠিক হলে বাদ পড়বেন" },
-  { key: "petty_thief", name: "ছিচকে চোর", value: "০", count: "×১", desc: "রাউন্ড শেষে একমাত্র বাঁচলে বোনাস টোকেন পান" },
+  { key: "petty_thief", name: "ছিচকে চোর", value: "০", count: "×২", desc: "রাউন্ড শেষে একমাত্র বাঁচলে বোনাস টোকেন পান" },
 ];
 
 export default function HomePage() {
